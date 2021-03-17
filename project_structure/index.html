@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PetricaGal Portfolio Website</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+<header class="header">
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">My services</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="portfolio-item.html">My work</a></li>
+    </ul>
+</header>
+
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I am <br> <strong>Petricã Gal</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Java Developer</p>
+    <img src="../Pictures/MY%20photos/IMG_20210108_145600748_HDR.jpeg" height="300" width="350" class="intro__img"/>
+</section>
+
+
+<!-- My services-->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Front-end Development</h3>
+            <p>
+                Going trough this course I have de opportunity to be familiar <br>
+                with HTML, CSS and JavaScript. Also I learned about the Angular <br>
+                framework an build applications with it.
+            </p>
+            <h3>Back-end Development</h3>
+            <p>
+               During this course I became familiar with Spring framework where <br>
+                I learned about Spring Core, Spring Boot, Spring Data, Spring Rest API <br>
+                also Spring Security and Spring MVC.
+            </p>
+            <h3>Using Angular and Spring</h3>
+            <p>
+                At the end of the course I develop an app calling "BookingApp" where I have <br>
+                practice my skills. The app hase the ability to make a reservation to a hotel, <br>
+                or find the best hotel near you.
+            </p>
+        </div>
+        <!-- close service-->
+    </div>
+    <!-- close services-->
+
+    <a href="#work" class="btn">My Work</a>
+</section>
+
+<!-- About me -->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Junior Java Developer</p>
+
+    <div class="about-me__body">
+        <p>I graduate the course "Java from scratch" at Software Development Academy <br>
+            where I learned about Java programming, Front-end development and Back-end <br>
+            development. In this course I learned about the Angular framework for Front-end <br>
+            development, and the Spring framework for the Back-end development. <br>
+            I would like to hear your ideas and transform them in real a application.<br>
+            I like new changes, and I am sociable and I like to be part of a team where I can <br>
+            share my opinions and listen people and work with them.<br>
+        </p>
+    </div>
+
+    <img src="../Pictures/MY%20photos/IMG_3211.jpeg" height="300" width="500" class="about-me__img"/>
+</section>
+
+<!-- My Work -->
+<section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work ">A selection of my range of work</p>
+
+    <div class="portfolio">
+<!--Portfolio item 01-->
+        <a href="portfolio-item.html " class="portfolio__item">
+            <img src="travel.jpg" class="portfolio__img">
+        </a>
+
+
+    <!--Portfolio item 02-->
+    <a href="portfolio-item.html" class="portfolio__item">
+        <img src="travel.jpg" class="portfolio__img">
+    </a>
+
+    <!--Portfolio item 03-->
+    <a href="portfolio-item.html" class="portfolio__item">
+        <img src="healthcare.jpeg"  class="portfolio__img">
+    </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="mailto:petricagal96@yahoo.com" class="footer__link">petricagal96@yahoo.com</a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://www.linkedin.com/in/petrica-gal-9a7751191/">
+                <i class="fab fa-linkedin"></i></a></li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/petricagal">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>
